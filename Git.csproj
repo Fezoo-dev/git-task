@@ -50,8 +50,10 @@
   <ItemGroup>
     <Compile Include="Calculator.cs" />
     <Compile Include="Calculator_Should.cs" />
+    <Compile Include="FeatureClass.cs" />
     <Compile Include="Maybe.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Simple.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
