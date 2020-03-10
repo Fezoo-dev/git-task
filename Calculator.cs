@@ -23,7 +23,6 @@ namespace Kontur.Courses.Git
 				var v1 = TryParseDouble(args[0]);
 				return v1.HasValue ? lastResult = v1.Value : v1;
 			}
-
 			if (args.Length == 2)
 			{
 				var result = TryParseDouble(args[1]);
